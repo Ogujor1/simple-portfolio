@@ -1,0 +1,176 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-section{
+  background-color: #e9f3fc;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.top-header .middle-top-name h1,p{
+  text-align: center;
+  margin-top: 20px;
+  color: #6db8b1;
+}
+.top-header .middle-top-name h1{
+  font-family: "Dancing Script", cursive;
+}
+.top-header .middle-top-name{
+  font-size: 1.5rem;
+  
+}
+div.left-top-favicon img{
+  margin-left: 55%;
+  margin-top: 30px;
+  width: 75px;
+  height: auto;
+}
+div.right-top-favicon img{
+  margin-left: -55%;
+  width: 75px;
+  height: auto;
+}
+.top-header .middle-image img{
+  height:220px;
+  width:auto;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 38vw;
+}
+.profile-section{
+  text-align: center;
+}
+.profile-section div, .myskill-section h1{
+  color: #6db8b1;
+}
+.profile-section div{
+  font-size: 30px;
+}
+.profile-section p{
+  text-align:center;
+  font-size: 11px;
+  color: black;
+}
+.profile-section p.dot{
+  padding: 3rem;
+}
+.myskill-section h1{
+  text-align: center;
+  margin-top: 5px;
+  font-size: 24px;
+}
+.profile-section img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px; 
+}
+.web-skill{
+  display: flex;
+  justify-content: center;
+}
+img.comp-image{
+  width: 150px;
+  height: 150px;
+  padding-right:14rem;
+}
+.web h3{
+  color: #6db8b1;
+}
+.web p{
+  color: black;
+}
+.student-profile img{
+  width: 150px;
+  height: 150px;
+  padding-left: 100%;
+}
+
+.student-profile{
+  display:flex;
+  justify-content: center;
+}
+hr{
+  border: 3px solid black;
+  text-align: center;
+  width: 40%;
+}
+.student-profile div{
+  padding-right:90px;
+}
+.footer{
+  text-align: center;
+  background-color: #eeeeee;
+  padding-bottom: 40px;
+}
+.footer h1{
+  color: #6db8b1;
+  text-decoration: underline;
+  font-size: 40px;
+  padding: 50px 0;
+}
+.footer-image{
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+}
+.footer-image img{
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+}
+.footer-image img:hover{
+  width: 320px;
+  height: 320px;
+  transition: all 1s;
+}
+.ground-touch{
+  text-align: center;
+}
+.ground-touch .groundy h1{
+  color: #5cb0ba;
+}
+.ground-touch .dot{
+  color: black;
+  padding: 5px 5px;
+}
+.ground-touch .contact{
+  background-color: #5cb0ba;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left:25rem;
+  text-decoration: none;
+}
+.ground-touch .contact:hover{
+  cursor: pointer;
+  background-color: #a2be2b;
+  transition: all .5s;
+}
+.extreme-foot{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  padding:2rem 0;
+  opacity: 0.7;
+}
+.extreme-foot .github{
+  margin:0 4rem;
+}
+.extreme-foot a{
+  text-decoration: none;
+  color: black;
+}
+.foot-cover{
+  background-color:#5cb0ba ;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.foot-cover .copy{
+  color: white;
+}
